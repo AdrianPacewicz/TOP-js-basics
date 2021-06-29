@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function add7 (a) {
+            return a + 7;
+        }
+        console.log("add7: " + add7(10));
+
+        function multiply (a, b) {
+            return a * b;
+        }
+        console.log("multiply: " + multiply(2,5));
+
+        function capitalize (s) {
+            let sAux = s;
+            sAux = sAux.substring(0,1).toUpperCase();
+            s = sAux + s.substring(1).toLowerCase();
+            return s;
+        }
+        console.log("capitalize: " + capitalize("quESo Y DuLce"));
+
+        function lastLetter (s) {
+            return s.substr(-1);
+        }
+        console.log("lastLetter: " + lastLetter("quESo Y DuLce"));
+    </script>
+</body>
+</html>

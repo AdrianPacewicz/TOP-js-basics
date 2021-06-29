@@ -1,1 +1,3 @@
-Primer prueba git "The Odin project"
+THE ODIN PROJECT
+
+JavaScript basics.
