@@ -1,4 +1,4 @@
 
-TheOdinProject - JavaScript Basics
+# TheOdinProject - JavaScript Basics
 
 JavaScript basic exercises
